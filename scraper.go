@@ -1,3 +1,12 @@
+/* 
+This program makes an HTTP Get request using the net/http package. This package
+follows HTTP protocol and will follow a maximum of 10 redirects. 
+The Tokenizer used to parse the HTML assumes that the response is UTF-8 encoded. 
+This could cause errors if the HTTP response is not UTF-8 encoded. 
+This program only parses HTTP responses
+*/ 
+
+
 package main
 
 import (
@@ -104,8 +113,8 @@ func (s SimpleScraper) ListExternalURLs() ([]string, error) {
 	externals := make([]string, 0)
 	//find all external urls
 	for _, v:= range urls {
-		link, err := url.Parse(v)
-		if link.IsAbs() && err == nil{
+		link, e := url.Parse(v)
+		if link.IsAbs() && e == nil{
 			externals = append(externals, v)
 		}
 	}

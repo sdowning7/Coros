@@ -1,3 +1,8 @@
+# Similar to the Go program this will also follow redirects. 
+# it may also have difficulty with encoding type since requests.Response.content 
+# is used which will provide a unicode string if available otherwise it returns 
+# the content in bytes. This program only parses HTTP responses.
+
 from lxml import html
 from urllib.parse import urlparse
 from argparse import ArgumentParser
