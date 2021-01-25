@@ -1,0 +1,111 @@
+
+
+General
+-------
+
+At Coros, problem solving is performed in small teams of humans.  We like to
+verify candidates can work successfully in such an environment.
+
+1.  If you have a blog, github, Twitter, or other public writing that you would
+    like us to read, please share those URLs. Feel free to highlight any items
+    you think we'd appreciate.
+
+[
+
+I do not have any articles on here, but I do have a few repositories you can check out!
+https://gitlab.com/users/sdowning7/projects
+https://github.com/sdowning7?tab=repositories
+
+]
+
+2.  If you have participated in one or more technical communities (open
+    source projects, electronics, astronomy, etc. professionally or as a
+    hobby), please submit URLs to the forum posts, mailing list messages, or
+    source repository change sets that show that participation.
+
+[
+
+]
+
+3.  What's your favorite book about software or computing? What do you like
+    about it?
+
+[
+I don't have a favorite book, but I do have a few favorite Youtube channels!
+https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA
+Computerphile coveres a lot of different computing topics. I like this channel because 
+they cover a wide variet of interesting topics that I may not have considered looking into. 
+I love digging into things and learning how they work, so the explorations of bugs like 
+heartbleed and meltdown or how various encryption schemes work are really interesting to me.
+They also have a bunch of great videos on the history of computing, which I find really cool
+because they sometimes explain weird quirks of how computers do things that go way back to 
+the start of computing.
+
+https://www.youtube.com/user/eaterbc
+Ben Eater has a series of videos where he builds a simple computer from the ground up. It's 
+really interesting to me to see what actually goes into designing a computer and all of the 
+underlying systems that bring different challenges that need to be tackled to get them all 
+to work together nicely. 
+
+]
+
+4.  What's your favorite website to consult while programming?
+
+[
+The first site I will often go to is a stack overflow, or stack exchange type of site, 
+whichever one has the question I'm looking for. From there, I will refer to the documentation
+for that language or library that I am using, to get more detail on the exact method or what 
+the piece of code is actually doing. 
+]
+
+5.  Coros's primary engineering team is located in California.  Select which
+    form of employment authorization you currently have:
+
+    [X] US citizen or permanent resident
+    [ ] Current visa holder (or application in progress), but will need
+[company] to transfer
+    [ ] Need [company] to sponsor a new visa
+
+6.  Finally, write a brief explanation about what challenges you are
+    seeking at a systems startup.
+
+[
+When talking to Mr. Moore, I was really interested in the Maching Learning aspects of Coros. I
+recently took an ML course at Northeastern and really enjoyed it. I would love to learn more about
+how exactly it is being applied to logistics, and what other future problems it could be used for. 
+I am looking forward to learning more about the challenges that the field of logistics has and what I can 
+do to help Coros tackle them. 
+
+]
+
+
+Software
+--------
+
+Coros's primary programming languages are C, C++, C#, Go, Java, Kotlin,
+Python, Scala, and, on the browser, JavaScript.
+
+1.  Write a brief program that in one of the above programming languages, given
+    a list of HTTP and HTTPS URLs as arguments, returns the number of unique
+    external URLs referenced in the response.  Your program must parse HTML
+    document responses, although you may optionally choose to parse other
+    document types for external URLs.  For example, an invocation with a list
+    of URLs like should look something like
+
+        $ program http://example.com http://www.columbia.edu/~fdc/sample.html
+        http://example.com 1
+        http://www.columbia.edu/~fdc/sample.html 18
+
+    In a comment at the top of your main program file, please describe any
+    limitations of your program.
+
+
+
+2.  Provide an equivalent implementation of #1 in your favorite programming
+    language.  (If you can't choose a favorite, pick a second language from our
+    primary programming languages for your second implementation.)  In this
+    program's comments, please describe any different limitations that apply to
+    this implementation from those of #1.
+
+Please provide your solutions in a compressed archive.  A README explaining
+your programs' requirements for execution would be appreciated.
